@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment two</title>
     <link rel="stylesheet" href="styles/style.css">
+    
 </head>
 <body class="universal">
 <!-- ---------------Banner and nav section start------------- -->
     <section class="banner">
         <!-- -----------------nav------------------- -->
-        <div class="nav container">
+        <div class="nav">
             <div class="fitness">
                 <nav><i>Fitness</i></nav>
             </div>
@@ -24,7 +25,7 @@
 <!-- ------------------------banner-------------------------- -->
          <div class="banner-section container">
             <div class="banner-content">
-                <h1>Get body in <br> shape & stay <br> healthy</h1>
+                <h1>Get body in <br> <span class="extra-font">shape</span> & stay <br> healthy</h1>
                 <p>
                     A huge selection of health and fitness content, healthy recipes <br> 
                     and transformation stories to help you get fit and stay fit!
@@ -77,7 +78,63 @@
 </section>
 <!-- -------------------Habit Section end------------------------- -->
 
+<!-- ------------Run section start----------------- -->
+<section class="extra-run container">
+    <div class="run">
+        <div class="run-content">
+        <h1>Run an Extra <br> Mile Easily</h1>
+        <p>Based on our Mile challenge you now have an idea of how much <br> more time the extra mile will take you</p>
+        <button class="join-btn">Join Now</button>
+        </div>
+        <div class="run-img">
+        <img src="images/run.jpg" alt="pic will appear soon"> 
+        </div>
+    </div>
+  </section> 
+   <!---------------Run Section end ---------------->
 
-
+   <!-- ------------BMI section start------------ -->
+    <section class="bmi-section">
+        <div class="bmi-heading">
+            <h1>BMI Calculator</h1>
+            <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+        </div>
+        <div class="bmi-calc">
+            <div class="bmi-table">
+                <h1>BMI Calculator Chart</h1>
+                <style>
+                    table{
+                        border-collapse: collapse;
+                    }
+                    td,th{
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        padding: 8px 25px;
+                    }
+                </style>
+                <table class="table">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight status</th>
+                    </tr>
+                    <tr>
+                        <td class="td-font">Below 18.5</td>
+                        <td class="td-font">Underweight</td>
+                    </tr>
+                    <tr>
+                        <td class="td-font">18.5 - 24.9</td>
+                        <td class="td-font">Healthy</td>
+                    </tr>
+                    <tr>
+                        <td class="td-font">25.0 - 29.9</td>
+                        <td class="td-font">Overweight</td>
+                    </tr>
+                    <tr>
+                        <td class="td-font">30.0 - and Over</td>
+                        <td class="td-font">Obese</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

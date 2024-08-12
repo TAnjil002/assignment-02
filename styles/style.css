@@ -15,13 +15,14 @@ body{
 
 .container{
     width: 90%;
-    margin: 5rem auto;
+    margin: 6rem auto;
     border-radius: 1rem;  
 }
 
 /* --------Banner and nav bar---------- */
 .banner{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.030);
+    margin-top: 2px;
 }
 
 /* ----------Nav Bar styles---------- */
@@ -30,11 +31,16 @@ body{
     font-size: 36px;
 }
 .nav{
+    margin-top: 40px;
+    margin-left: 115px;
+    margin-right: 80px;
     display: flex;
     justify-content: space-between;
 }
 .nav-options{
-    border: 2px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 10px;
     display: flex;
     margin-right: 90px;
     align-items: center;
@@ -52,6 +58,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 115px;
+    
 }
 
 .banner-content h1{
@@ -60,8 +68,11 @@ body{
 }
 
 .banner-content{
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     font-size: 12px;
+}
+.extra-font{
+                                                  
 }
 
 .btn-1{
@@ -126,3 +137,64 @@ body{
     margin-left: 60px;
 }
 
+/* -----------------Run styles--------------- */
+.extra-run{
+    background-color: rgba(255, 255, 255, 0.235);
+    height: 371px;  
+    width: 1060px; 
+}
+.run{
+    display: flex;
+    justify-content: space-between;
+}
+.run-content{
+    margin-top: 41px;
+    margin-left: 54px;
+}
+.run-content h1{
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.join-btn{
+    padding: 10px 40px;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 60px;
+}
+.run-img img{
+    width: 320px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 38px;
+    margin-right: 40px;
+}
+
+/* ------------------BMI styles----------------- */
+.bmi-heading{
+    text-align: center;
+}
+.bmi-calc{
+    margin-top: 88px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 487px;
+}
+.bmi-table{
+    margin-left: 125px;
+    
+}
+.bmi-heading h1{
+    font-size: 48px;
+}
+.bmi-table h1{
+    margin-top: 52px;
+    font-size: 28px;
+}
+.table{
+    margin-top: 50px;
+}
+.td-font{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
