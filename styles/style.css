@@ -15,7 +15,7 @@ body{
 
 .container{
     width: 90%;
-    margin: 6rem auto;
+    margin: 5rem auto;
     border-radius: 1rem;  
 }
 
@@ -58,8 +58,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 115px;
-    
+    margin-left: 115px; 
 }
 
 .banner-content h1{
@@ -92,8 +91,17 @@ body{
     background-color: #111111;
 }
 
-.banner-img{
+.banner-img {
     margin-right: 80px;
+}
+.workout-point{
+    font-size: 40;
+}
+.workout{
+    font-size: 13px;
+}
+.tutorial{
+    font-size: 24px;
 }
 
 /* ------------------Habit Style----------------- */
@@ -178,10 +186,12 @@ body{
 .bmi-calc{
     margin-top: 88px;
     background-color: rgba(255, 255, 255, 0.1);
-    height: 487px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
 }
 .bmi-table{
-    margin-left: 125px;
+    margin-left: 135px;
     
 }
 .bmi-heading h1{
@@ -197,4 +207,140 @@ body{
 .td-font{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+}
+/* -----------------input------------- */
+.input-content{
+    margin-right: 135px;
+}
+.input-heading h1{
+    margin-top: 52px;
+    font-size: 28px;
+}
+.input-heading p{
+    margin-top: 14px;
+    font-size: 14px;
+}
+.bmi-input{
+    margin-top: 34px;
+}
+.form-1{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+}
+.form-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.bmi-form{
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sex-form{
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 10px 103px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.activity{
+    background-color:  rgba(255, 255, 255, 0.1);
+    padding: 10px 170px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* -----------------meet style----------- */
+.meet-trainer{
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 20px;
+    height: 600px;
+    width: 1060px;
+    margin: 0 auto;
+}
+.meet-content h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.meet-content p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 58px;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+.trainer img{
+    border-radius: 10px;
+    height: 272px;
+    width: 326px;
+}
+
+.info{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* ---------------footer style------------- */
+.footer-section{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 489px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.fit h1{
+    color: rgba(230, 83, 60, 1);
+    font-size: 70px;
+    margin-top: 66px;
+    margin-bottom: 20px;
+}
+.fit p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.get-started-1{
+    margin-top: 66px;
+}
+.get-started-2{
+    margin-top: 66px;
+}
+.get-heading{
+    margin-bottom: 39px;
+    font-size: 32px;
+}
+.get-p{
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.hr{
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 79px;
+    margin-bottom: 36px;
+}
+.reserved{
+    text-align: center;
 }
