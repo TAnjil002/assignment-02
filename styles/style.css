@@ -1,43 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-body{
+body {
     font-family: "Inter", sans-serif;
 }
 
-*{
+* {
     margin: 0;
 }
 
-.universal{
+.universal {
     background-color: black;
     color: white;
 }
 
-.container{
+.container {
     width: 90%;
     margin: 5rem auto;
-    border-radius: 1rem;  
+    border-radius: 1rem;
 }
 
 /* --------Banner and nav bar---------- */
-.banner{
+.banner {
     background-color: rgba(255, 255, 255, 0.030);
     margin-top: 2px;
 }
 
 /* ----------Nav Bar styles---------- */
-.fitness{
+.fitness {
     color: rgba(230, 83, 60, 1);
     font-size: 36px;
 }
-.nav{
+
+.nav {
     margin-top: 40px;
     margin-left: 115px;
     margin-right: 80px;
     display: flex;
     justify-content: space-between;
 }
-.nav-options{
+
+.nav-options {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 10px;
@@ -47,34 +49,34 @@ body{
     gap: 20px;
     font-size: 18px;
 }
-.nav-color{
+
+.nav-color {
     background-color: rgba(230, 83, 60, 1);
     border-radius: 46%;
     padding: 5px;
 }
 
 /* -------------banner styles---------------- */
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 115px; 
+    margin-left: 115px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 70px;
     margin-bottom: 20px;
 }
 
-.banner-content{
+.banner-content {
     margin-bottom: 60px;
     font-size: 12px;
 }
-.extra-font{
-                                                  
-}
 
-.btn-1{
+.extra-font {}
+
+.btn-1 {
     padding: 10px 40px;
     background-color: #E6533C;
     color: white;
@@ -83,7 +85,7 @@ body{
     margin-top: 15px;
 }
 
-.btn-2{
+.btn-2 {
     padding: 10px 40px;
     color: white;
     border-radius: 50px;
@@ -94,51 +96,56 @@ body{
 .banner-img {
     margin-right: 80px;
 }
-.workout-point{
+
+.workout-point {
     font-size: 40;
 }
-.workout{
+
+.workout {
     font-size: 13px;
 }
-.tutorial{
+
+.tutorial {
     font-size: 24px;
 }
 
 /* ------------------Habit Style----------------- */
-.habit-container{
-    text-align: center;
-}
-.habit-content{
+.habit-container {
     text-align: center;
 }
 
-.habit-content h1{
+.habit-content {
+    text-align: center;
+}
+
+.habit-content h1 {
     font-size: 40px;
 }
 
-.habit-content p{
+.habit-content p {
     text-align: center;
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.habit-image-section{
+.habit-image-section {
     margin-top: 90px;
     display: flex;
 }
 
-.habit-image{
+.habit-image {
     border-radius: 100px;
     margin-left: 90px;
 }
 
-.habit-heading{
+.habit-heading {
     text-align: center;
-    margin-top: 10px;  
-    margin-left: 80px; 
+    margin-top: 10px;
+    margin-left: 80px;
 }
-.habit-para{
+
+.habit-para {
     text-align: center;
     font-size: 12px;
     margin-top: 5px;
@@ -146,24 +153,28 @@ body{
 }
 
 /* -----------------Run styles--------------- */
-.extra-run{
+.extra-run {
     background-color: rgba(255, 255, 255, 0.235);
-    height: 371px;  
-    width: 1060px; 
+    height: 371px;
+    width: 1060px;
 }
-.run{
+
+.run {
     display: flex;
     justify-content: space-between;
 }
-.run-content{
+
+.run-content {
     margin-top: 41px;
     margin-left: 54px;
 }
-.run-content h1{
+
+.run-content h1 {
     font-size: 48px;
     margin-bottom: 14px;
 }
-.join-btn{
+
+.join-btn {
     padding: 10px 40px;
     background-color: #E6533C;
     color: white;
@@ -171,7 +182,8 @@ body{
     border: none;
     margin-top: 60px;
 }
-.run-img img{
+
+.run-img img {
     width: 320px;
     height: 300px;
     border-radius: 15px;
@@ -180,167 +192,459 @@ body{
 }
 
 /* ------------------BMI styles----------------- */
-.bmi-heading{
+.bmi-heading {
     text-align: center;
 }
-.bmi-calc{
+
+.bmi-calc {
     margin-top: 88px;
     background-color: rgba(255, 255, 255, 0.1);
-    height: 440px;
+
     display: flex;
     justify-content: space-between;
 }
-.bmi-table{
+
+.bmi-table {
     margin-left: 135px;
-    
+
 }
-.bmi-heading h1{
+
+.bmi-heading h1 {
     font-size: 48px;
 }
-.bmi-table h1{
+
+.bmi-table h1 {
     margin-top: 52px;
     font-size: 28px;
 }
-.table{
+
+.table {
     margin-top: 50px;
 }
-.td-font{
+
+.td-font {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* -----------------input------------- */
-.input-content{
+.input-content {
     margin-right: 135px;
 }
-.input-heading h1{
+
+.input-heading h1 {
     margin-top: 52px;
     font-size: 28px;
 }
-.input-heading p{
+
+.input-heading p {
     margin-top: 14px;
     font-size: 14px;
 }
-.bmi-input{
+
+.bmi-input {
     margin-top: 34px;
 }
-.form-1{
+
+.form-1 {
     display: flex;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.5);
     padding: 5px 10px;
 }
-.form-2{
+
+.form-2 {
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
 }
-.bmi-form{
-    background-color:  rgba(255, 255, 255, 0.1);
+
+.bmi-form {
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 10px 40px;
     border: none;
     border-radius: 8px;
     margin-bottom: 12px;
     color: rgba(255, 255, 255, 0.5);
 }
-.sex-form{
-    background-color:  rgba(255, 255, 255, 0.1);
+
+.sex-form {
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 10px 103px;
     border: none;
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.5);
 }
-.activity{
-    background-color:  rgba(255, 255, 255, 0.1);
+
+.activity {
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 10px 170px;
     border: none;
     border-radius: 8px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.cal-btn {
+    padding: 15px 50px;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 15px;
+}
+
 /* -----------------meet style----------- */
-.meet-trainer{
-    background-color:  rgba(255, 255, 255, 0.1);
+.meet-trainer {
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     padding: 20px;
     height: 600px;
     width: 1060px;
     margin: 0 auto;
 }
-.meet-content h1{
+
+.meet-content h1 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 14px;
 }
-.meet-content p{
+
+.meet-content p {
     text-align: center;
     font-size: 14px;
     margin-bottom: 58px;
 }
-.row-1{
+
+.row-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
-.row-2{
+
+.row-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    
+
 }
-.trainer img{
+
+.trainer img {
     border-radius: 10px;
     height: 272px;
     width: 326px;
 }
 
-.info{
-    position: absolute;
-    bottom: 8px;
+.info {
+    z-index: 999px;
+    position: relative;
+    bottom: 70px;
     left: 16px;
+    font-size: 20px;
+}
+
+.info-p {
+    z-index: 999px;
+    position: relative;
+    bottom: 70px;
+    left: 16px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* ---------------footer style------------- */
-.footer-section{
+.footer-section {
     background-color: rgba(255, 255, 255, 0.1);
     height: 489px;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     margin-top: 66px;
     margin-left: 135px;
     margin-right: 135px;
 }
-.fit h1{
+
+.fit h1 {
     color: rgba(230, 83, 60, 1);
     font-size: 70px;
     margin-top: 66px;
     margin-bottom: 20px;
 }
-.fit p{
+
+.fit p {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
-.get-started-1{
+
+.get-started-1 {
     margin-top: 66px;
 }
-.get-started-2{
+
+.get-started-2 {
     margin-top: 66px;
 }
-.get-heading{
+
+.get-heading {
     margin-bottom: 39px;
     font-size: 32px;
 }
-.get-p{
+
+.get-p {
     margin-bottom: 20px;
     font-size: 23px;
     color: rgba(255, 255, 255, 0.5);
 }
-.hr{
+
+.hr {
+    color: rgba(255, 255, 255, 0.1);
     margin-left: 135px;
     margin-right: 135px;
     margin-top: 79px;
     margin-bottom: 36px;
 }
-.reserved{
+
+.reserved {
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+.ham-burger {
+    display: none;
+}
+
+/* --------------responsive design----------- */
+@media screen and (max-width: 576px) {
+    .nav-options {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .banner-content p {
+        width: 60%;
+    }
+
+    .btn {
+        display: flex;
+    }
+
+    .banner-section,
+    .img-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* ---------------habit section------- */
+    .habit-content h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    .habit-content p {
+        font-size: 0.6rem;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .habit-image-section {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .nav {
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .banner-section {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .fukkkkk {
+        right: 4rem !important;
+    }
+
+    .fuck-me {
+        right: unset !important;
+    }
+
+
+    .habit-heading,
+    .habit-para {
+        margin-left: unset;
+    }
+
+
+    .btn {
+        gap: 1rem;
+        align-content: center;
+        margin-top: 1.75rem;
+    }
+
+    .btn-1 {
+        margin-top: unset;
+    }
+
+    /* -------------extra run----------- */
+    .extra-run {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        text-align: center;
+        height: unset;
+        padding-bottom: 1rem;
+    }
+
+    .run-content {
+        margin: 0;
+        padding: 1rem;
+    }
+
+
+    .join-btn {
+        padding: 1rem 7rem;
+        margin-top: 1rem;
+    }
+
+    .run {
+        flex-direction: column;
+    }
+
+    .run-img img {
+        height: 200px;
+        border-radius: 15px;
+        margin: 0;
+    }
+
+    /* ---------------BMI section---------- */
+    .bmi-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bmi-table {
+        margin: unset;
+    }
+
+    .bmi-heading h1 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .bmi-heading p {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .bmi-calc {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+
+    }
+
+    .activity-factor {
+        margin-left: 0.5rem;
+        width: fit-content;
+    }
+
+    .bmi-input {
+        margin-bottom: 5px;
+        margin: 1rem auto;
+        width: fit-content;
+    }
+
+    .input-heading h1 {
+        text-align: center;
+    }
+
+    .input-content {
+        margin-right: unset;
+    }
+
+    .input-heading p {
+        text-align: center;
+    }
+
+
+
+    .bmi-input,
+    .activity {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .activity {
+        padding-right: 80px;
+    }
+
+    .cal-btn {
+        padding: 15px 50px;
+        margin-left: 10px;
+        margin-bottom: 1.2rem;
+    }
+
+    /* ---------------meet section---------- */
+    .meet-content h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .meet-trainer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        padding-bottom: 0;
+        align-items: center;
+        height: unset !important;
+        width: unset !important;
+    }
+
+    .meet-content p {
+        text-align: center;
+    }
+
+    .trainer {
+        height: 290px;
+    }
+
+    .row-1,
+    .row-2 {
+        display: block;
+        gap: 20px;
+        margin: 0 1rem;
+    }
+
+
+
+
+    /* --------------footer section----------- */
+    .footer-section {
+        background-color: rgba(255, 255, 255, 0.5);
+        height: unset;
+        padding: 1rem;
+    }
+
+    .footer-content {
+        margin: unset;
+        flex-direction: column;
+    }
 }
