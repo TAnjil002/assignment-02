@@ -463,7 +463,6 @@ body {
         gap: 2rem;
     }
 
-
     .nav {
         margin: 0;
         padding: 0.5rem;
@@ -474,11 +473,11 @@ body {
         margin-top: 2rem;
     }
 
-    .fukkkkk {
+    .fix1 {
         right: 4rem !important;
     }
 
-    .fuck-me {
+    .fix2 {
         right: unset !important;
     }
 
